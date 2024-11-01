@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 247, 247);
+}
+main{
+    margin-top: 10px;
+}
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 10px solid rgb(255, 247, 247);
+    border-radius: 20px;
+}
+.box{
+    display: inline-block;
+}
+.img{
+    height: 250px;
+    width:auto;
+    border-radius: 20px;
+}
+.rname{
+    font-size: 25px;
+    font-weight: bold;
+}
+.restaurant,.food,.location{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rating{
+    background-color: rgb(18, 194, 18);
+    border-radius: 3px;
+    font-weight: bold;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    width: 35px;
+}
+.price,.dist{
+    position: absolute;
+    right: 5px;
+}
+.food,.address{
+    font-size: 15px;
+    color: rgb(93, 90, 90);
+}
+.dist{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+    transform:scale(1.05);
+    transition: transform 0.1s ease-in-out 0.1s;
+}
+.image{
+    position: relative;
+}
+.image > p{
+    color: white;
+    background-color: rgba(22, 104, 211,0.5);
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    font-size: 25px;
+    width: 150px;
+}
+.head{
+    background-color: white;
+}
+.first{
+    margin-left: 200px;
+}
+.name{
+    color: rgb(211, 0, 0);
+    margin-top: 10px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.searching{
+    width: 400px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 10px;
+    height: 30px;
+}
+button{
+    height: 40px;
+    width: 90px;
+    position: relative;
+    bottom:10px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    color: rgb(92, 88, 88);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.fa-search{
+    font-size: 28px;
+    position: relative;
+    bottom: 4px;
+    color: rgb(223, 66, 31);
+}
+.img3{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 200px;
+}
+.dining{
+    font-size: 20px;
+    color: rgb(153, 148, 148);
+    position: relative;
+    bottom: 25px;
+    left: 20px;
+}
+.third{
+    height: 500px;
+    background-color: rgb(255, 247, 247);
+}
+.second{
+    position: sticky;
+    margin-left:0px;
+    top: 0px;
+    background-color: white;
+}
+.third>h2{
+    padding-left: 30px;
+    font-size: 25px;
+    font-family: Georgia;
+}
+.third>p{
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.diwali{
+    display: inline-block;
+    height:350px ;
+    border-radius: 10px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 18px;
+    z-index: -2;
+}
+.c1{
+    display: inline-block;
+}
